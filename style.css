@@ -16,6 +16,7 @@
 
 a {
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 button,
@@ -27,4 +28,21 @@ button,
 .testimonial-section {
     background-color: #e5e7eb;
     color: #1f2937;
+}
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
 }
