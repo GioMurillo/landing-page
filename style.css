@@ -42,6 +42,12 @@ button,
     gap: 16px;
 }
 
+.header-links,
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 ul {
     list-style-type: none;
     margin-left: 0;
@@ -51,6 +57,26 @@ ul {
 .intro {
     display: flex;
     flex-wrap: wrap;
+}
+
+.intro {
+    justify-content: space-around;
+}
+
+.intro-left,
+.hero-img {
+    width: 25%;
+    padding: 24px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.intro-button {
+
 }
 
 .info-section {
