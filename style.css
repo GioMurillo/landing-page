@@ -74,8 +74,9 @@ ul {
     color: #F9FAF8;
 }
 
-.intro-button {
-
+button {
+    border-radius: 8px;
+    width: 80px;
 }
 
 .info-section {
