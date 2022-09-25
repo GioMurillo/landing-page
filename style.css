@@ -42,8 +42,7 @@ button,
     gap: 16px;
 }
 
-.header-links,
-.secondary-text {
+.header-links {
     font-size: 18px;
     color: #E5E7EB;
 }
