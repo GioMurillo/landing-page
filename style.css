@@ -109,10 +109,11 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 800px;
+    padding: 80px;
 }
 
 .quote-text {
-    width: 500px;
     font-style: italic;
     font-size: 36px;
 }
