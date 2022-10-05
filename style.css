@@ -59,9 +59,13 @@ ul {
     justify-content: space-around;
 }
 
-.intro-left,
-.hero-img {
+.intro-left {
     width: 25%;
+    padding: 24px;
+}
+
+.hero-img {
+    width: 200px;
     padding: 24px;
 }
 
@@ -86,10 +90,8 @@ button {
 }
 
 img {
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-    width: 150px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
 }
 
 .info-header {
@@ -99,7 +101,10 @@ img {
 }
 
 .tile {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
     width: 150px;
+    height: 150px;
 }
 
 .testimonial-section {
