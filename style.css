@@ -56,9 +56,6 @@ ul {
 .intro {
     display: flex;
     flex-wrap: wrap;
-}
-
-.intro {
     justify-content: space-around;
 }
 
