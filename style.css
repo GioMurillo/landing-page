@@ -108,18 +108,19 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 92vw;
     padding: 80px;
 }
 
 .quote-text {
     font-style: italic;
     font-size: 36px;
+    max-width: 60vw;
 }
 
 .quote-author {
     font-weight: bold;
     align-self: flex-end;
+    max-width: 80vw;
 }
 
 .subscription-section {
