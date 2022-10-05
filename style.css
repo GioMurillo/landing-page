@@ -109,7 +109,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100wh;
+    width: 92vw;
     padding: 80px;
 }
 
@@ -121,6 +121,17 @@ img {
 .quote-author {
     font-weight: bold;
     align-self: flex-end;
+}
+
+.subscription-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+    width: 60vw;
+    margin-left: 20vw;
+    border-radius: 10px;
+    padding: 40px 0px;
 }
 
 .footer {
